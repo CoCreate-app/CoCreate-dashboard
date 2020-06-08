@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="../../css/CoCreateUI.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/99ba925095.js"></script> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+  <!-- DHTMLX Window -->
+  <link rel="stylesheet" href="https://cdn.dhtmlx.com/edge/dhtmlx.css" type="text/css"> 
+  <script src="https://cdn.dhtmlx.com/edge/dhtmlx.js" type="text/javascript"></script>
+
+<style>
+.progressbar {
+  flex-grow: 1;
+  height: 4px;
+  border: none;
+  position: relative;
+  background-color: rgb(194, 240, 253);
+  overflow: hidden;
+}
+
+.progressbar > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  transform-origin: left;
+  transition: transform .4s linear;
+  background-color: #61dafb;
+}
+.floating-label{
+  margin-top:0px!important;
+  margin-bottom: 0px!important;
+}
+
+.main-height {
+  height: calc( 100vh - 30px);
+}
+
+.progressbar-text {
+  color: #121212;
+  font-weight: bolder;
+}
+</style>
+</head>
+<body>
+    <div id="customVPhere" class="hidden"></div>
+    <div data-main_content_id="content" class="nav">
+        <ul class="cocreate-scroll display-inline-flex direction-rtl font-size-20px align-items-center">
+  			<li><a class="btn-wnd-close"><i class="fas fa-times">
+  			  </i></a></li>
+  			<li><a class="btn-wnd-maximize"><i data-transform_to="far fa-window-restore" class="far fa-window-maximize">
+  			  </i></a></li>
+  			<li><a class="btn-wnd-minimize"><i class="far fa-window-minimize">
+  			  </i></a></li>
+  			<li><a class="fs-toggle"><i data-transform_to="fas fa-compress" class="fas fa-expand">
+  			  </i></a></li>
+
+  			<li><a data-collection="modules" data-module_id="" data-pass_id="form-fields" class="delete-document btn-wnd-close"><i class="far fa-trash-alt"></i></a></li>
+			 </ul>
+    </div>
+    
+    <div class="cocreate-container" data-main_content_id="content">
+      <div id="saveFetch1" class="saveFetch main-height" name='cards1' data-collection="module_activity" data-module_activity_id="5e07c2a43145e2497e494bf0" data-module_id="newclone" data-pass_id="me1234" >
+        
+          <div class="Sortable isotope-grid resize-grid" data-group_name="dashboard" 
+            isotope-itemselector="grid-item" 
+            isotope-layoutMode="masonry" 
+            isotope-columnWidth="1"
+            resizable="true"
+            resize-itemselector="grid-item"
+            resize-snapWidth="10"
+            resize-snapHeight="10"
+            resize-edges="0 1 1 0"
+            draggable="true"
+
+            >
+            
+            <!--<div class="display-flex">-->
+            <!--  <div class="card display-flex padding-20px align-items-center margin-10px">-->
+            <!--    <div class="padding-right-20px">-->
+            <!--      <h2>Visits</h2>-->
+            <!--      <p>Total visits today</p>-->
+            <!--      <div class="display-flex align-items-center">-->
+            <!--        <h2>$4000</h2>-->
+            <!--        <i class="fas fa-chart-line color-deep-pink padding-15px-lr"></i>-->
+            <!--        <span class="cocreate-badge badge-warning round font-size-12px">7%</span>-->
+            <!--      </div>-->
+            <!--      <a href="#">Detail</a>-->
+            <!--    </div>-->
+            <!--    <div class="">-->
+            <!--      <div class="progressbar-circle text-align-center width-120px" progressbar-color="#22CCE2" percent-value="85" percent-note="New Visits"></div>-->
+            <!--    </div>-->
+            <!--  </div>-->
+              
+            <!--  <div class="card display-flex padding-20px align-items-center margin-10px">-->
+            <!--    <div class="padding-right-20px">-->
+            <!--      <h2>Orders</h2>-->
+            <!--      <p>Total visits today</p>-->
+            <!--      <div class="display-flex align-items-center">-->
+            <!--        <h2>$1000</h2>-->
+            <!--        <i class="fas fa-chart-line color-deep-pink padding-15px-lr"></i>-->
+            <!--        <span class="cocreate-badge badge-danger round font-size-12px">8%</span>-->
+            <!--      </div>-->
+            <!--      <a href="#">Detail</a>-->
+            <!--    </div>-->
+            <!--    <div class="">-->
+            <!--      <div class="progressbar-circle text-align-center width-120px" progressbar-color="#FDBF5E" percent-value="75" percent-note="New Orders"></div>-->
+            <!--    </div>-->
+            <!--  </div>-->
+              
+            <!--  <div class="card display-flex padding-20px align-items-center margin-10px">-->
+            <!--    <div class="padding-right-20px">-->
+            <!--      <h2>Sales</h2>-->
+            <!--      <p>Total visits today</p>-->
+            <!--      <div class="display-flex align-items-center">-->
+            <!--        <h2>$500</h2>-->
+            <!--        <i class="fas fa-chart-line color-deep-pink padding-15px-lr"></i>-->
+            <!--        <span class="cocreate-badge badge-success round font-size-12px">7%</span>-->
+            <!--      </div>-->
+            <!--      <a href="#">Detail</a>-->
+            <!--    </div>-->
+            <!--    <div class="">-->
+            <!--      <div class="progressbar-circle text-align-center width-120px" progressbar-color="#FF3D57" percent-value="80" percent-note="New Sales"></div>-->
+            <!--    </div>-->
+            <!--  </div>-->
+            <!--</div>  -->
+              <!-- sortable card -->
+              <div id="card" class="card margin-5px border-radius-2px flex-grow-1 template grid-item" style="width:calc( 20% - 10px )">
+                <div class="margin-15px font-size-18px color-dark-gray">
+                  <span class="display-inline-block">
+                    <input data-collection="module_activity" data-pass_id="form-fields" data-module_activity_id="" name="clone-name" id="stage-name" class="input_field" placeholder="card">
+                  </span>
+                  <span class="float-right display-inline-block"><a data-clone_id="card" class="deleteBtn reset-layout"><i class="fas fa-times"></i></a></span>
+                </div>
+                <div class="border-bottom border-color-extra-medium-gray">
+                  <div class="display-flex align-items-center margin-15px-lr">
+                    <form data-collection="module_activity" class="Sortable" data-group_name="task-items" id="testForm">
+                    <!-- sortable task item -->
+                      <div id="task-item" class="display-flex flex-wrap-nowrap align-items-center margin-15px-lr padding-10px-tb template">
+                        <h3>Something...</h3>
+
+                        <a data-clone_id="task-item" class="margin-left-15px font-size-20px deleteBtn" ><i class="far fa-trash-alt"></i></a>
+                      </div>
+                  </form>
+                  </div>
+                </div>
+                <div class="margin-15px-lr margin-15px-tb">
+                  <a data-clone_id="task-item" class="cloneBtn noDrag reset-layout" style="display: block" ><i class="fas fa-plus"></i> Something...</a>  
+                </div>
+              </div>
+          </div><!-- Sortable card -->
+           	
+         	<a data-clone_id="card" class="floating-btn cloneBtn" id="addcardBtn"><i class="fas fa-plus"></i></a>
+  
+      </div><!-- saveFetch -->
+    </div> <!-- cocreate-container -->
+
+
+  <script>
+    var config = {
+      apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
+      securityKey: 'f26baf68-e3a9-45fc-effe-502e47116265',
+      organization_Id: '5de0387b12e200ea63204d6c'
+    }
+  </script>
+  
+  <!--CoCreateJS-->
+  <script src="../../js/CoCreateJS.min.js"></script>
+  <script src="../../js/CoCreate-savefetch.js"></script>
+  <script src="../../js/CoCreate-sort.js"></script>
+  <script src="../../js/CoCreate-floating-label.js"></script>
+  <script src="../../js/CoCreate-clone.js"></script>
+  <script src="../../js/CoCreate-isotope.js"></script>
+  <script src="../../js/CoCreate-interact.js"></script>
+  <script src="../../js/CoCreate-progressbar.js"></script>
+
+</body>
+</html>
