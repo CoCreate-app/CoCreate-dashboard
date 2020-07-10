@@ -1,4 +1,4 @@
-# Contributing to CoCreateJS
+# Contributing to CoCreate-dashboard
 
 This project is work of [many contributors](https://github.com/CoCreate-app/CoCreate-dashboard/graphs/contributors).
 You're encouraged to submit [pull requests](https://github.com/CoCreate-app/CoCreate-dashboard/pulls),
@@ -8,12 +8,12 @@ In the examples below, substitute your Github username for `contributor` in URLs
 
 ## Fork the Project
 
-Fork the [project on Github](https://github.com/CoCreate-app/CoCreateJS) and check out your copy.
+Fork the [project on Github](https://github.com/CoCreate-app/CoCreate-dashboard) and check out your copy.
 
 ```
-git clone https://github.com/contributor/CoCreateJS.git
-cd CoCreateJS
-git remote add upstream https://github.com/CoCreate-app/CoCreateJS.git
+git clone https://github.com/contributor/CoCreate-dashboard.git
+cd CoCreate-dashboard
+git remote add upstream https://github.com/CoCreate-app/CoCreate-dashboard.git
 ```
 
 ## Create a Topic Branch
@@ -24,15 +24,6 @@ Make sure your fork is up-to-date and create a topic branch for your feature or 
 git checkout master
 git pull upstream master
 git checkout -b my-feature-branch
-```
-
-## Bundle Install and Test
-
-Ensure that you can build the project and run tests.
-
-```
-bundle install
-bundle exec rake
 ```
 
 ## Write Tests
