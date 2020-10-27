@@ -9,7 +9,7 @@
     <title>Dashboards | CoCreate</title>
   
     <!-- CoCreateCSS -->
-    <link rel="stylesheet" href="https://cdn.cocreate.app/CoCreate.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://server.cocreate.app/css/CoCreate.min.css" type="text/css" />
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous" />    
@@ -72,9 +72,10 @@
     </div>
     
     <div data-main_content_id="content">
-      <div id="saveFetch1" class="saveFetch main-height" name='cards1' data-collection="module_activity" data-module_activity_id="5e07c2a43145e2497e494bf0" data-module_id="newclone" data-pass_id="me1234" >
+      <!--<div class="domEditor main-height" name='cards1' data-collection="test" data-document_id="5f075add24d24a175fca5490" data-pass_id="me1234" >-->
+      <div class="domEditor main-height" name='cards1' data-collection="test" data-pass_id="me1234" >
         
-          <div class="Sortable isotope-grid resize-grid" data-group_name="dashboard" 
+          <div class="isotope-grid resize-grid" data-group_name="dashboard" data-droppable="true" class="dnd"
             isotope-itemselector="grid-item" 
             isotope-layoutMode="masonry" 
             isotope-columnWidth="1"
@@ -82,11 +83,10 @@
             resize-itemselector="grid-item"
             resize-snapWidth="10"
             resize-snapHeight="10"
-            resize-edges="0 1 1 0"
-            draggable="true">
+            resize-edges="0 1 1 0">
           
           <!--<div class="display:flex">-->
-            <div class="card display:flex padding:20px align-items:center margin:10px">
+            <div class="card display:inline-flex padding:20px align-items:center margin:1% grid-item width:23% width:47%@xs width:47%@sm width:23%@md" data-draggable="true" data-element_id="id1">
               <div class="padding-right:20px">
                 <h2>Visits</h2>
                 <p>Total visits today</p>
@@ -97,67 +97,67 @@
                 </div>
                 <a href="#">Detail</a>
               </div>
-              <div class="">
-                <div class="progressbar-circle text-align-center width-120px" progressbar-color="#22CCE2" percent-value="85" percent-note="New Visits"></div>
+              <div class="flex-grow:1">
+                <div class="progressbar-circle text-align:center width:100%" progressbar-color="#22CCE2" percent-value="85" percent-note="New Visits"></div>
               </div>
             </div>
             
-          <!--  <div class="card display:flex padding:20px align-items:center margin:10px">-->
-          <!--    <div class="padding-right:20px">-->
-          <!--      <h2>Orders</h2>-->
-          <!--      <p>Total visits today</p>-->
-          <!--      <div class="display:flex align-items:center">-->
-          <!--        <h2>$1000</h2>-->
-          <!--        <i class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>-->
-          <!--        <span class="cocreate-badge badge-danger round font-size:12px">8%</span>-->
-          <!--      </div>-->
-          <!--      <a href="#">Detail</a>-->
-          <!--    </div>-->
-          <!--    <div class="">-->
-          <!--      <div class="progressbar-circle text-align-center width-120px" progressbar-color="#FDBF5E" percent-value="75" percent-note="New Orders"></div>-->
-          <!--    </div>-->
-          <!--  </div>-->
-            
-          <!--  <div class="card display:flex padding:20px align-items:center margin:10px">-->
-          <!--    <div class="padding-right:20px">-->
-          <!--      <h2>Sales</h2>-->
-          <!--      <p>Total visits today</p>-->
-          <!--      <div class="display:flex align-items:center">-->
-          <!--        <h2>$500</h2>-->
-          <!--        <i class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>-->
-          <!--        <span class="cocreate-badge badge-success round font-size:12px">7%</span>-->
-          <!--      </div>-->
-          <!--      <a href="#">Detail</a>-->
-          <!--    </div>-->
-          <!--    <div class="">-->
-          <!--      <div class="progressbar-circle text-align-center width-120px" progressbar-color="#FF3D57" percent-value="80" percent-note="New Sales"></div>-->
-          <!--    </div>-->
-          <!--  </div>-->
-          <!--</div>  -->
-            <!-- sortable card -->
-            <div id="card" class="card margin:5px border-radius-2px flex-grow-1 template grid-item" style="width:calc( 20% - 10px )">
-              <div class="margin:15px font-size:18px color-dark-gray">
-                <span class="display:inline-block">
-                  <input data-collection="module_activity" data-pass_id="form-fields" data-module_activity_id="" name="clone-name" id="stage-name" class="input_field" placeholder="card">
-                </span>
-                <span class="float:right display:inline-block"><a data-clone_id="card" class="deleteBtn reset-layout"><i class="fas fa-times"></i></a></span>
-              </div>
-              <div class="border:bottom border-color-extra-medium-gray">
-                <div class="display:flex align-items:center margin:0px_15px">
-                  <form data-collection="module_activity" class="Sortable" data-group_name="task-items" id="testForm">
-                  <!-- sortable task item -->
-                    <div id="task-item" class="display:flex flex-wrap-nowrap align-items:center margin:0px_15px padding:10px_0px template">
-                      <h3>Something...</h3>
-
-                      <a data-clone_id="task-item" class="margin-left:15px font-size:20px deleteBtn" ><i class="far fa-trash-alt"></i></a>
-                    </div>
-                </form>
+            <div class="card display:inline-flex padding:20px align-items:center margin:1% grid-item width:23%  width:47%@xs width:47%@sm width:23%@md" data-draggable="true" data-element_id="id2">
+              <div class="padding-right:20px">
+                <h2>Orders</h2>
+                <p>Total visits today</p>
+                <div class="display:flex align-items:center">
+                  <h2>$1000</h2>
+                  <i class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>
+                  <span class="cocreate-badge badge-danger round font-size:12px">8%</span>
                 </div>
+                <a href="#">Detail</a>
               </div>
-              <div class="margin:0px_15px margin:15px_0px">
-                <a data-clone_id="task-item" class="cloneBtn noDrag reset-layout" style="display: block" ><i class="fas fa-plus"></i> Something...</a>  
+              <div class="flex-grow:1">
+                <div class="progressbar-circle text-align:center width:100%" progressbar-color="#FDBF5E" percent-value="75" percent-note="New Orders"></div>
               </div>
             </div>
+            
+            <div class="card display:inline-flex padding:20px align-items:center margin:1% grid-item width:23%  width:47%@xs width:47%@sm width:23%@md" data-draggable="true" data-element_id="id3">
+              <div class="padding-right:20px">
+                <h2>Sales</h2>
+                <p>Total visits today</p>
+                <div class="display:flex align-items:center">
+                  <h2>$500</h2>
+                  <i class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>
+                  <span class="cocreate-badge badge-success round font-size:12px">7%</span>
+                </div>
+                <a href="#">Detail</a>
+              </div>
+              <div class="flex-grow:1">
+                <div class="progressbar-circle text-align:center width:100%" progressbar-color="#FF3D57" percent-value="80" percent-note="New Sales"></div>
+              </div>
+            </div>
+          </div>  
+            <!-- sortable card -->
+            <!--<div id="card" class="card margin:5px border-radius-2px flex-grow-1 template grid-item" style="width:calc( 20% - 10px )">-->
+            <!--  <div class="margin:15px font-size:18px color-dark-gray">-->
+            <!--    <span class="display:inline-block">-->
+            <!--      <input data-collection="module_activity" data-pass_id="form-fields" data-module_activity_id="" name="clone-name" id="stage-name" class="input_field" placeholder="card">-->
+            <!--    </span>-->
+            <!--    <span class="float:right display:inline-block"><a data-clone_id="card" class="deleteBtn reset-layout"><i class="fas fa-times"></i></a></span>-->
+            <!--  </div>-->
+            <!--  <div class="border:bottom border-color-extra-medium-gray">-->
+            <!--    <div class="display:flex align-items:center margin:0px_15px">-->
+            <!--      <form data-collection="module_activity" class="Sortable" data-group_name="task-items" id="testForm">-->
+                  <!-- sortable task item -->
+            <!--        <div id="task-item" class="display:flex flex-wrap-nowrap align-items:center margin:0px_15px padding:10px_0px template">-->
+            <!--          <h3>Something...</h3>-->
+
+            <!--          <a data-clone_id="task-item" class="margin-left:15px font-size:20px deleteBtn" ><i class="far fa-trash-alt"></i></a>-->
+            <!--        </div>-->
+            <!--    </form>-->
+            <!--    </div>-->
+            <!--  </div>-->
+            <!--  <div class="margin:0px_15px margin:15px_0px">-->
+            <!--    <a data-clone_id="task-item" class="cloneBtn noDrag reset-layout" style="display: block" ><i class="fas fa-plus"></i> Something...</a>  -->
+            <!--  </div>-->
+            <!--</div>-->
         </div><!-- Sortable card -->
          	
        	<button data-clone_id="card" class="position:fixed bottom:15px right:15px bg:blue grow-hover round cloneBtn" id="addcardBtn"><i class="fas fa-plus"></i></button>
@@ -175,16 +175,18 @@
     
     <!-- CoCreateJS -->
     <script src="https://server.cocreate.app/js/CoCreate.min.js"></script>
+
+    <!-- CoCreate Progressbar -->
+    <script src="https://server.cocreate.app/CoCreate-plugins/CoCreate-progressbar/src/CoCreate-progressbar.js"></script>
     
 
     <!-- CoCreate Isotope -->
-    <script src="https://server.cocreate.app/CoCreate-components/CoCreate-isotope/src/CoCreate-isotope.js"></script>
+    <script src="https://server.cocreate.app/CoCreate-plugins/CoCreate-isotope/src/CoCreate-isotope.js"></script>
    
     <!-- CoCreate Interact -->
-    <script src="https://server.cocreate.app/CoCreate-components/CoCreate-interact/src/CoCreate-interact.js"></script>
+    <!--<script src="https://server.cocreate.app/CoCreate-plugins/CoCreate-interact/src/CoCreate-interact.js"></script>-->
     
-    <!-- CoCreate Progressbar -->
-    <script src="https://server.cocreate.app/CoCreate-components/CoCreate-progressbar/src/CoCreate-progressbar.js"></script>
+    <script defer src=" https://server.cocreate.app/CoCreate-components/CoCreate-dnd/dist/CoCreate-dnd.js"></script>
 
   </body>
 </html>  
