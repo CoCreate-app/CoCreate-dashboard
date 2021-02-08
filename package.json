@@ -1,0 +1,39 @@
+{
+  "name": "@cocreate/dashboard",
+  "version": "1.0.0",
+  "description": "A simple dashboard component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
+  "keywords": ["dashboard","cocreate","low-code-framework","no-code-framework","cocreatejs","cocreatejs-component","cocreate-framework","no-code","low-code","collaborative-framework","realtime","realtime-framework","collaboration","shared-editing","html5-framework","javascript-framework"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "npx webpack --config webpack.config.js --watch",
+    "build": "NODE_ENV=production npx webpack --config webpack.config.js",
+    "docs": "node ./node_modules/@cocreate/docs/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoCreate-app/CoCreate-dashboard.git"
+  },
+  "author": "CoCreate LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoCreate-app/CoCreate-dashboard/issues"
+  },
+  "homepage": "https://cocreate.app/docs/dashboard",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-log": "^3.0.1"
+  },
+
+  "dependencies": {
+    "@cocreate/docs": "^1.0.3"
+  }
+}

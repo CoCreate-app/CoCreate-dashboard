@@ -11,25 +11,24 @@ In the examples below, substitute your Github username for `contributor` in URLs
 Fork the [project on Github](https://github.com/CoCreate-app/CoCreate-dashboard) and check out your copy.
 
 ```
-git clone https://github.com/contributor/CoCreate-dashboard.git
+git dashboard https://github.com/contributor/CoCreate-dashboard.git
 cd CoCreate-dashboard
 git remote add upstream https://github.com/CoCreate-app/CoCreate-dashboard.git
 ```
 
 ## Create a Topic Branch
 
-Make sure your fork is up-to-date and create a topic branch for your feature or bug fix.
+Make sure your fork is up-to-date and create a topic branch for your feature or bug fix on dev branch.
 
 ```
-git checkout master
-git pull upstream master
+git checkout dev
+git pull upstream dev
 git checkout -b my-feature-branch
 ```
 
 ## Write Tests
 
 Try to write a test that reproduces the problem you're trying to fix or describes a feature that you want to build.
-Add to [spec](spec).
 
 We definitely appreciate pull requests that highlight or reproduce a problem, even without a fix.
 
@@ -41,11 +40,6 @@ Implement your feature or bug fix.
 
 Document any external behavior in the [README](README.md).
 
-## Update Changelog
-
-Add a line to [CHANGELOG](CHANGELOG.md) under *Next Release*.
-Make it look like every other line, including your name and link to your Github account.
-
 ## Commit Changes
 
 Make sure git knows your name and email address:
@@ -55,12 +49,23 @@ git config --global user.name "Your Name"
 git config --global user.email "contributor@example.com"
 ```
 
-Writing good commit logs is important. A commit log should describe what changed and why.
+We use [semantic-release](https://github.com/semantic-release/semantic-release) as process to generate changelog
+and to release. Write meaningful commits according to 
+[Commit Message Formats](https://github.com/semantic-release/semantic-release#commit-message-format) is important.
 
 ```
 git add ...
-git commit
+git commit -am "commit-type(optional topic): a meaningful message"
 ```
+
+Here is an example of the release type that should be done based on a [semantic-release](https://github.com/semantic-release/semantic-release):
+
+| Commit message                                                                                                                                                                                   | Release type               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
+| `fix(pencil): stop graphite breaking when too much pressure applied`                                                                                                                             | Patch Release              |
+| `feat(pencil): add 'graphiteWidth' option`                                                                                                                                                       | ~~Minor~~ Feature Release  |
+| `perf(pencil): remove graphiteWidth option`<br><br>`BREAKING CHANGE: The graphiteWidth option has been removed.`<br>`The default graphite width of 10mm is always used for performance reasons.` | ~~Major~~ Breaking Release |
+
 
 ## Push
 
@@ -75,36 +80,17 @@ Click the 'Pull Request' button and fill out the form. Pull requests are usually
 
 ## Rebase
 
-If you've been working on a change for a while, rebase with upstream/master.
+If you've been working on a change for a while, rebase with upstream/dev.
 
 ```
 git fetch upstream
-git rebase upstream/master
+git rebase upstream/dev
 git push origin my-feature-branch -f
 ```
-
-## Update CHANGELOG Again
-
-Update the [CHANGELOG](CHANGELOG.md) with the pull request number. A typical entry looks as follows.
-
-```
-* [#123](https://github.com/CoCreate-app/CoCreate-dashboard/pull/123): Reticulated splines - [@contributor](https://github.com/contributor).
-```
-
-Amend your previous commit and force push the changes.
-
-```
-git commit --amend
-git push origin my-feature-branch -f
-```
-
-## Check on Your Pull Request
-
-Go back to your pull request after a few minutes and see whether it passed muster with Travis-CI. Everything should look green, otherwise fix issues and amend your commit as described above.
 
 ## Be Patient
 
-It's likely that your change will not be merged and that the nitpicky maintainers will ask you to do more, or fix seemingly benign problems. Hang on there!
+It's likely that your change will not be merged and that the nitpicky maintainers will ask you to do more, or fix seemingly benign problems. Hang in there!
 
 ## Thank You
 
