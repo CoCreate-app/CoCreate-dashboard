@@ -12,7 +12,7 @@ module.exports = {
             document_id: "",
             key: "html",
             data:{
-                name: "dashboard Doc",
+                name: "Dashboard Doc",
             }
         },
     ],
