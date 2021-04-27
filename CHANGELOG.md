@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.2...v1.0.3) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([83b5d25](https://github.com/CoCreate-app/CoCreate-dashboard/commit/83b5d25e2e0ad9bbf817161f701066ce7630de8b))
+
 ## [1.0.2](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.1...v1.0.2) (2021-04-27)
 
 
