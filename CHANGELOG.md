@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.3...v1.0.4) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([f8739a1](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f8739a183d8ff7bfe248664b419e538b974ac3d9))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.2...v1.0.3) (2021-04-27)
 
 
