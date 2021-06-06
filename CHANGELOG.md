@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.4...v1.0.5) (2021-06-06)
+
+
+### Bug Fixes
+
+* update packages, add uuid, add data-parse to demos ([55dceaf](https://github.com/CoCreate-app/CoCreate-dashboard/commit/55dceaf9d94207c251392d86e4deea53f67f5076))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.3...v1.0.4) (2021-05-08)
 
 
