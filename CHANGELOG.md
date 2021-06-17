@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.5...v1.0.6) (2021-06-17)
+
+
+### Bug Fixes
+
+* added header for seo ([d53a631](https://github.com/CoCreate-app/CoCreate-dashboard/commit/d53a631b2c24efb99fcda3fb19b060e09211c088))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.4...v1.0.5) (2021-06-06)
 
 
