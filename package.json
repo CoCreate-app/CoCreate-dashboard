@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/dashboard",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple dashboard component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
   "keywords": [
     "dashboard",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js --watch",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
