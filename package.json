@@ -50,7 +50,6 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/docs": "^1.1.14",
-    "mini-css-extract-plugin": "^1.5.0"
+    "@cocreate/docs": "^1.1.14"
   }
 }
