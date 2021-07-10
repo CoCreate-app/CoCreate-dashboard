@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.11...v1.0.12) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([c554320](https://github.com/CoCreate-app/CoCreate-dashboard/commit/c554320eeec4568ee7de0652f65f544acdaf5e24))
+
 ## [1.0.11](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.10...v1.0.11) (2021-06-30)
 
 
