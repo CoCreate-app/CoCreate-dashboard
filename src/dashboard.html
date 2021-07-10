@@ -9,7 +9,7 @@
     <title>Dashboards | CoCreate</title>
   
     <!-- CoCreateCSS -->
-    <link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css" data-parse="true"/>
 
        
 
@@ -51,7 +51,7 @@
   <body>
     <div id="modal-viewport" class="hidden"></div>
     <div data-main_content_id="content" class="nav display:flex align-items:center background:whitesmoke">
-      <ul class="cocreate-scroll display:inline-flex direction:rtl font-size:20px align-items:center list-style-type:none width:100%">
+      <ul class="overflow:overlay display:inline-flex direction:rtl font-size:20px align-items:center list-style-type:none width:100%">
   			<li cLass="margin-right:15px">
   			  <a class="btn-modal-close"><i class="fas fa-times"></i></a>
   			</li>
@@ -167,25 +167,17 @@
     <script>
       var config = {
         apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
-        securityKey: 'f26baf68-e3a9-45fc-effe-502e47116265',
-        organization_Id: '5de0387b12e200ea63204d6c'
+                organization_Id: '5de0387b12e200ea63204d6c'
       }
     </script>
     
     <!-- CoCreateJS -->
-    <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
-
-    <!-- CoCreate Progressbar -->
-    <script src="https://server.cocreate.app/CoCreate-plugins/CoCreate-progressbar/src/CoCreate-progressbar.js"></script>
-    
-
+    <script src="https://server.cocreate.app/CoCreateJS/dist/CoCreate.js" ></script>
     <!-- CoCreate Isotope -->
     <script src="https://server.cocreate.app/CoCreate-plugins/CoCreate-isotope/src/CoCreate-isotope.js"></script>
    
     <!-- CoCreate Interact -->
     <!--<script src="https://server.cocreate.app/CoCreate-plugins/CoCreate-interact/src/CoCreate-interact.js"></script>-->
     
-    <script defer src=" https://server.cocreate.app/CoCreate-components/builder-prerequisite/dist/CoCreate-dnd.js"></script>
-
   </body>
 </html>  

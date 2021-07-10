@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/dashboard",
-  "version": "1.0.0",
+  "version": "1.0.11",
   "description": "A simple dashboard component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
   "keywords": [
     "dashboard",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
@@ -56,5 +58,7 @@
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^5.1.1"
   },
-  "dependencies": { "@cocreate/docs": "^1.0.3" }
+  "dependencies": {
+    "@cocreate/docs": "^1.1.14"
+  }
 }
