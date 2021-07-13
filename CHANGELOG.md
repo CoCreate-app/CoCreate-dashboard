@@ -1,3 +1,11 @@
+## [1.0.13](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.12...v1.0.13) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([c3f9416](https://github.com/CoCreate-app/CoCreate-dashboard/commit/c3f9416c9d054ea5ea434f9967c01cfe4aa90cff))
+* remove yarn.lock ([cef217b](https://github.com/CoCreate-app/CoCreate-dashboard/commit/cef217be3d13145903b2d41b26545d03ce70cb14))
+
 ## [1.0.12](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.11...v1.0.12) (2021-07-10)
 
 
