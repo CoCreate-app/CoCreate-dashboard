@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.14...v1.0.15) (2021-07-17)
+
+
+### Bug Fixes
+
+* workflows ([e917f57](https://github.com/CoCreate-app/CoCreate-dashboard/commit/e917f571404fea02f0de831ebd5b7d470cb329f8))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.13...v1.0.14) (2021-07-14)
 
 
