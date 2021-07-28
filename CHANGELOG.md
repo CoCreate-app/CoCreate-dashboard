@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.16...v1.1.0) (2021-07-28)
+
+
+### Bug Fixes
+
+* remove data- from fetch, pass and filter ([8171448](https://github.com/CoCreate-app/CoCreate-dashboard/commit/81714481a3fe6d4ec1241d08d3ea1f38a9f2029f))
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([be23ea6](https://github.com/CoCreate-app/CoCreate-dashboard/commit/be23ea6a2bef7cc83622ea7dd4d31408b32d611d))
+
 ## [1.0.16](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.0.15...v1.0.16) (2021-07-17)
 
 
