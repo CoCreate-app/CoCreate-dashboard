@@ -1,3 +1,13 @@
+## [1.1.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.2...v1.1.3) (2021-08-14)
+
+
+### Bug Fixes
+
+* remove data- from dnd attributes ([0165cf0](https://github.com/CoCreate-app/CoCreate-dashboard/commit/0165cf0d71497ebcf42ca0bd74660a9957954cb6))
+* rename data-element_id to element_id ([1a71e95](https://github.com/CoCreate-app/CoCreate-dashboard/commit/1a71e956ed036c8b302adbba802abfee059f942f))
+* replace data-transform with toggle ([adcfd3a](https://github.com/CoCreate-app/CoCreate-dashboard/commit/adcfd3aa498d1d5b9cafdcd53a0d938274fa234d))
+* update to  docs ([c707736](https://github.com/CoCreate-app/CoCreate-dashboard/commit/c707736d7ac2b17a1a95bf76b120612aea1aa0d8))
+
 ## [1.1.2](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.1...v1.1.2) (2021-08-12)
 
 
