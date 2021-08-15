@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.3...v1.1.4) (2021-08-15)
+
+
+### Bug Fixes
+
+* remove data- from data-parse and data-save attributes ([2ac11db](https://github.com/CoCreate-app/CoCreate-dashboard/commit/2ac11db307332feceba59a8599052b53839a7a11))
+
 ## [1.1.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.2...v1.1.3) (2021-08-14)
 
 
