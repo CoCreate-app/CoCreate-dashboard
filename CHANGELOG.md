@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.12...v1.1.13) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([2f9b605](https://github.com/CoCreate-app/CoCreate-dashboard/commit/2f9b6059a1334dd66c92d5176e61107e9974e71b))
+
 ## [1.1.12](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.11...v1.1.12) (2021-09-08)
 
 
