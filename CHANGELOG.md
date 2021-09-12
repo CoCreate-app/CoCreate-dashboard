@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.16...v1.1.17) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([8706281](https://github.com/CoCreate-app/CoCreate-dashboard/commit/87062819e0df418d24a3ee209a95e430146a3a3a))
+
 ## [1.1.16](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.15...v1.1.16) (2021-09-09)
 
 
