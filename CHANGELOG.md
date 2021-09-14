@@ -1,3 +1,10 @@
+## [1.1.19](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.18...v1.1.19) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([4b139bc](https://github.com/CoCreate-app/CoCreate-dashboard/commit/4b139bcc06ee735a8b4b25b9e2a3684248a610c5))
+
 ## [1.1.18](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.17...v1.1.18) (2021-09-13)
 
 
