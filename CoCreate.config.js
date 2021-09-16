@@ -20,7 +20,7 @@ module.exports = {
                 "directory": "/docs/dashboard",
                 "content-type": "text/html",
                 "public": "true",
-                "website_id": "61381ed8829b690010a4f2b2"
+                "website_id": "614298c2829b690010a5c031"
             }
         }
     ],
