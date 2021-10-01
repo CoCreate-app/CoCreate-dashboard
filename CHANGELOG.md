@@ -1,3 +1,10 @@
+## [1.1.23](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.22...v1.1.23) (2021-10-01)
+
+
+### Bug Fixes
+
+* update packages ([6cd1df2](https://github.com/CoCreate-app/CoCreate-dashboard/commit/6cd1df23ddabd3fe73c916b0c99f8635af586b27))
+
 ## [1.1.22](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.21...v1.1.22) (2021-10-01)
 
 
