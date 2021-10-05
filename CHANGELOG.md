@@ -1,3 +1,11 @@
+## [1.1.26](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.25...v1.1.26) (2021-10-05)
+
+
+### Bug Fixes
+
+* update dependencies ([bdae9a8](https://github.com/CoCreate-app/CoCreate-dashboard/commit/bdae9a8d9879aefca987f61233d5bb334dde4ead))
+* website_id in CoCreate.config ([acbd07a](https://github.com/CoCreate-app/CoCreate-dashboard/commit/acbd07a1dca6465636ae23dd30aea349f7eb49e1))
+
 ## [1.1.25](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.24...v1.1.25) (2021-10-04)
 
 
