@@ -1,3 +1,10 @@
+## [1.1.33](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.32...v1.1.33) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([731f8ff](https://github.com/CoCreate-app/CoCreate-dashboard/commit/731f8ffe4a52bbbe16c7f212bd9b3c8ff1626524))
+
 ## [1.1.32](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.31...v1.1.32) (2021-10-15)
 
 
