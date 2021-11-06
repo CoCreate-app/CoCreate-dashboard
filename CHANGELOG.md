@@ -1,3 +1,10 @@
+## [1.1.39](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.38...v1.1.39) (2021-11-06)
+
+
+### Bug Fixes
+
+* removed cdn from workflows as modules dont have javascript and are built using existing componennts ([ed4b99b](https://github.com/CoCreate-app/CoCreate-dashboard/commit/ed4b99b8bfae6476193a599c45358c8bae470005))
+
 ## [1.1.38](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.37...v1.1.38) (2021-11-04)
 
 
