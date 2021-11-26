@@ -96,50 +96,30 @@
                         </span>
                     </div>
                     <div class="position:sticky top:0 padding:15px_0px height:100vh">
-    			    <div class="container svColumn overflow:hidden card border-radius:2px width:auto height:100%" id="form-sandbox">
-    			       <div class="font-size:20px position:absolute top:10px right:10px opacity:0.6 z-index:7">
-    			        <a class="margin-right:10px" id="preview" show="preview" hide="code"><i class="far fa-eye"></i></a>
-    			        <a class="margin-right:10px hidden" id="code" show="code" hide="preview"><i class="fas fa-code"></i></a>
-    			        <!--<a class="margin-right:10px"><i class="far fa-window-maximize"></i></a>-->
-    					<a target="modal" href="module_activity_datatable.html"
-    				  	     pass-collection="modules"
-    				  	     pass-document_id=""
-    				  	     pass-fetch_value=""
-    				  	     pass-prefix=""
-    				  	     pass_to="render"
-    				  	     modal-width="600px"
-    				  	     modal-height="400px"
-    				  	     modal-color="#229954"
-    				  	     modal-header="false"
-    				  	     class="margin-right:10px">
-    				  	    <i class="fas fa-external-link-alt"></i>
-    				     </a>        
-    				     <a class="margin-right:5px" fullscreen target="#playground-1"><i class="fas fa-expand"></i></a>
-    			        </div>
-    			
-    			        <div class="svRow">
-    			            
-    			            <div class="svColumn">
-    			            	
-    			                <div class="svPanel">
-    			                    <div realtime="false"
-    			                        collection="modules"
-    			                        document_id="5eefe30952c6e94c75fb5e3f"
-    			                        name="html" 
-    			                        id="7" 
-    			                        class="codemirror min-width:300px">
-    			                    </div>
-    			                </div>
-    			            	<div class="svSplitter svHorizontal"> </div>
-    			
-    			                <div class="svPanel">
-    			                    <iframe get-value="7" frameBorder="0" height="100%" width="100%"  class="min-width:300px"></iframe>
-    			                </div>
-    			                
-    			            </div>
-    			        </div>
-    			    </div>
-    			    <!-- End SandBox -->
+						<!-- SandBox -->
+						<div class="container svColumn overflow:hidden card position:relative border-radius:2px width:auto height:100%" id="sandbox">
+							<div class="font-size:20px position:absolute top:10px right:10px opacity:0.6">
+								<a class="margin-right:10px" id="code" show="#preview" hide="#code, #view"><i class="far fa-eye"></i></a>
+								<a class="margin-right:10px hidden" id="preview" show="#code, #view" hide="#preview"><i class="fas fa-code"></i></a>
+								<a class="margin-right:5px" fullscreen target="#playground"><i class="fas fa-expand"></i></a>
+							</div>
+							<div class="svRow">
+	
+								<div class="svColumn">
+	
+									<div class="svPanel" id="view">
+										<textarea collection="demos" document_id="" name="demo" save="false" id="demo" class="height:100% width:100% border:none resize:none padding:5px"></textarea>
+									</div>
+									<div class="svSplitter svHorizontal"> </div>
+	
+									<div class="svPanel">
+										<iframe get-value="demo" frameBorder="0" height="100%" width="100%" class="min-width:300px"></iframe>
+									</div>
+	
+								</div>
+							</div>
+						</div>
+						<!-- End SandBox -->
     			    </div>
                 </div>
                 
