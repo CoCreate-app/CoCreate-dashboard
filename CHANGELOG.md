@@ -1,3 +1,10 @@
+## [1.1.49](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.48...v1.1.49) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([1d2f35c](https://github.com/CoCreate-app/CoCreate-dashboard/commit/1d2f35ca2d449229ac1183d53b979aa3a4cb4e13))
+
 ## [1.1.48](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.47...v1.1.48) (2021-11-26)
 
 
