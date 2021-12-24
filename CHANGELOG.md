@@ -1,3 +1,10 @@
+## [1.1.55](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.54...v1.1.55) (2021-12-24)
+
+
+### Bug Fixes
+
+* add action deleteDocuments ([f4e63de](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f4e63de46ff64ad34a5023d871fc27e189161bbf))
+
 ## [1.1.54](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.53...v1.1.54) (2021-12-15)
 
 
