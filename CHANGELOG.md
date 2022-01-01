@@ -1,3 +1,10 @@
+## [1.1.57](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.56...v1.1.57) (2022-01-01)
+
+
+### Bug Fixes
+
+* removed data- from attributes ([82c1e97](https://github.com/CoCreate-app/CoCreate-dashboard/commit/82c1e97ece14eab6c39e6e9c34a9f31f476978b9))
+
 ## [1.1.56](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.55...v1.1.56) (2021-12-31)
 
 
