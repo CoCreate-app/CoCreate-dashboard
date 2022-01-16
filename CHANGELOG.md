@@ -1,3 +1,10 @@
+## [1.1.59](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.58...v1.1.59) (2022-01-16)
+
+
+### Bug Fixes
+
+* update class overflow:overlay to overflow:auto ([f8a5b74](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f8a5b74d3fa9d3d7d6b403943c44caa41145fbfb))
+
 ## [1.1.58](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.57...v1.1.58) (2022-01-01)
 
 
