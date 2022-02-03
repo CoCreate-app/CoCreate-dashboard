@@ -1,3 +1,10 @@
+## [1.1.61](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.60...v1.1.61) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([f74373d](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f74373dfa64099f9d77b293989570ffe59943e32))
+
 ## [1.1.60](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.59...v1.1.60) (2022-02-01)
 
 
