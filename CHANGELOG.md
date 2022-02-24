@@ -1,3 +1,10 @@
+## [1.1.65](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.64...v1.1.65) (2022-02-24)
+
+
+### Bug Fixes
+
+* CoCreate.config replace CoCreate.app with * ([d65e435](https://github.com/CoCreate-app/CoCreate-dashboard/commit/d65e435b4aae748f78130fe3dd3910ccc0bf92b0))
+
 ## [1.1.64](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.63...v1.1.64) (2022-02-16)
 
 
