@@ -1,3 +1,10 @@
+## [1.1.66](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.65...v1.1.66) (2022-03-21)
+
+
+### Bug Fixes
+
+* update class sortable to attribute sortable ([b22ed45](https://github.com/CoCreate-app/CoCreate-dashboard/commit/b22ed4551d2dcd8b6469b899fe8e300c65737c96))
+
 ## [1.1.65](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.64...v1.1.65) (2022-02-24)
 
 
