@@ -1,3 +1,10 @@
+## [1.1.67](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.66...v1.1.67) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([703cf08](https://github.com/CoCreate-app/CoCreate-dashboard/commit/703cf0802f34502b6556b1050fb253cfd02d434f))
+
 ## [1.1.66](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.65...v1.1.66) (2022-03-21)
 
 
