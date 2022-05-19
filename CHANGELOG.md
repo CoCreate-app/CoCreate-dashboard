@@ -1,3 +1,10 @@
+## [1.1.68](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.67...v1.1.68) (2022-05-19)
+
+
+### Bug Fixes
+
+* update document_id on link index.css ([2988fff](https://github.com/CoCreate-app/CoCreate-dashboard/commit/2988fffac86511f5baa926e04adc7b1a8b7f7438))
+
 ## [1.1.67](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.66...v1.1.67) (2022-05-06)
 
 
