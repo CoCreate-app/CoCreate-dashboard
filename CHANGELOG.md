@@ -1,3 +1,12 @@
+## [1.1.70](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.69...v1.1.70) (2022-06-12)
+
+
+### Bug Fixes
+
+* update dependencies ([b48bcce](https://github.com/CoCreate-app/CoCreate-dashboard/commit/b48bcce8433a148a7ea08c86dc121efdba85a2e5))
+* update docs css document_id ([4b744c7](https://github.com/CoCreate-app/CoCreate-dashboard/commit/4b744c75c65e1173ceed5ddc0478142af3333b97))
+* update modal btn to actions ([46cb0f3](https://github.com/CoCreate-app/CoCreate-dashboard/commit/46cb0f3d20df084a1a145f2c33ff0470db7773dc))
+
 ## [1.1.69](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.68...v1.1.69) (2022-05-23)
 
 
