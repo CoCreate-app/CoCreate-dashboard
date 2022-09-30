@@ -1,3 +1,10 @@
+## [1.1.75](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.74...v1.1.75) (2022-09-30)
+
+
+### Bug Fixes
+
+* bump [@cocreate](https://github.com/cocreate) dependencies ([36b85c1](https://github.com/CoCreate-app/CoCreate-dashboard/commit/36b85c1d331a82449a1a8a3196374acdd8a11369))
+
 ## [1.1.74](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.73...v1.1.74) (2022-09-30)
 
 
