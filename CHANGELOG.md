@@ -1,3 +1,10 @@
+## [1.1.79](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.78...v1.1.79) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([2cdf8c0](https://github.com/CoCreate-app/CoCreate-dashboard/commit/2cdf8c0b4b070576b4e483f148dbc47cf2e15bed))
+
 ## [1.1.78](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.77...v1.1.78) (2022-10-01)
 
 
