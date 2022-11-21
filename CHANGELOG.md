@@ -1,3 +1,10 @@
+## [1.1.83](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.82...v1.1.83) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([4e78011](https://github.com/CoCreate-app/CoCreate-dashboard/commit/4e78011045edf86708869847f773239fdff1b709))
+
 ## [1.1.82](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.81...v1.1.82) (2022-11-21)
 
 
