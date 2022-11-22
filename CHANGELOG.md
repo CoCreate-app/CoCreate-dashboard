@@ -1,3 +1,11 @@
+## [1.1.85](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.84...v1.1.85) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([f8f2cd2](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f8f2cd2e46e02e26a2db85afd7483023df9f7777))
+* workflow docs ([055b70c](https://github.com/CoCreate-app/CoCreate-dashboard/commit/055b70cc453062ebada81ff99cacffaf884a21fe))
+
 ## [1.1.84](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.83...v1.1.84) (2022-11-21)
 
 
