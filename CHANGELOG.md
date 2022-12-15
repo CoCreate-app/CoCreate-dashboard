@@ -1,3 +1,10 @@
+## [1.1.103](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.102...v1.1.103) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([20c6da5](https://github.com/CoCreate-app/CoCreate-dashboard/commit/20c6da59cdac9fde142e9cd4a6c95f717ef55180))
+
 ## [1.1.102](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.101...v1.1.102) (2022-12-13)
 
 
