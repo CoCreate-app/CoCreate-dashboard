@@ -96,30 +96,28 @@
                         </span>
                     </div>
                     <div class="position:sticky top:0 padding:15px_0px height:100vh">
-						<!-- SandBox -->
-						<div class="container svColumn overflow:hidden card position:relative border-radius:2px width:auto height:100%" id="sandbox">
-							<div class="font-size:20px position:absolute top:10px right:10px opacity:0.6">
-								<a class="margin-right:10px" id="code" show="#preview" hide="#code, #view"><i class="far fa-eye"></i></a>
-								<a class="margin-right:10px" id="preview" show="#code, #view" hide="#preview" hidden><i class="fas fa-code"></i></a>
-								<a class="margin-right:5px" fullscreen target="#playground"><i class="fas fa-expand"></i></a>
-							</div>
-							<div class="svRow">
-	
-								<div class="svColumn">
-	
-									<div class="svPanel" id="view">
-										<textarea collection="demos" document_id="" name="demo" save="false" id="demo" class="height:100% width:100% border:none resize:none padding:5px"></textarea>
-									</div>
-									<div class="svSplitter svHorizontal"> </div>
-	
-									<div class="svPanel">
-										<iframe get-value="#demo" frameBorder="0" height="100%" width="100%" class="min-width:300px"></iframe>
-									</div>
-	
-								</div>
-							</div>
-						</div>
-						<!-- End SandBox -->
+                        <!-- SandBox -->
+                        <div class="position:relative overflow:hidden card border-radius:2px width:auto height:600px margin-top:20px" id="playground">
+                            
+                            <div id="demo-code" resizable class="position:relative height:50%">
+                                <textarea type="code" lang="html" collection="demos" document_id="" name="demo" save="false" id="demo" class="height:100% width:100% outline:none border:none resize:none padding:5px"></textarea>
+                                <div resize="bottom" class="background:lightgrey"></div>
+                            </div>
+        
+                            <div id="demo-preview" class="position:relative display:flex height:100% background-color:white">
+                                <div get-value="#demo" class="padding:20px"></div>
+                            </div>
+                            
+                            <div class="font-size:20px position:absolute top:10px right:10px opacity:0.6">
+                                <a class="margin-right:10px" id="eye" show="#eye-slash" hide="#eye, #demo-preview" toggle="code-height" toggle-target="#demo-code"><i class="far fa-eye"></i></a>
+                                <a class="margin-right:10px" hidden id="eye-slash" show="#eye, #demo-preview" hide="#eye-slash" toggle="code-height" toggle-target="#demo-code"><i class="fas fa-eye-slash"></i></a>
+                                <a class="margin-right:10px" id="code" show="#code-slash" hide="#code, #demo-code"><i class="fa fa-code"></i></a>
+                                <a class="margin-right:10px" hidden id="code-slash" show="#code, #demo-code" hide="#code-slash"><i class="fas fa-code"></i></a>
+                                <a class="margin-right:5px" fullscreen target="#playground"><i class="fas fa-expand"></i></a>
+                            </div>
+        
+                        </div>
+                        <!-- End SandBox -->
     			    </div>
                 </div>
                 
