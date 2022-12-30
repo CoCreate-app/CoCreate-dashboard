@@ -1,3 +1,10 @@
+## [1.1.112](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.111...v1.1.112) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([1b43baf](https://github.com/CoCreate-app/CoCreate-dashboard/commit/1b43bafddfd93a5dc872cd5f14675da274c84d6c))
+
 ## [1.1.111](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.110...v1.1.111) (2022-12-29)
 
 
