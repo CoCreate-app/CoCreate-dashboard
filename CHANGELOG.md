@@ -1,3 +1,11 @@
+## [1.1.115](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.114...v1.1.115) (2023-01-05)
+
+
+### Bug Fixes
+
+* bump cdn to 1.39.4 ([b55a209](https://github.com/CoCreate-app/CoCreate-dashboard/commit/b55a209b62b7d60c5b0f0d9b7c627859da5df513))
+* bump dependencies ([40b178b](https://github.com/CoCreate-app/CoCreate-dashboard/commit/40b178bd01906e20f63b538a87562327c417661d))
+
 ## [1.1.114](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.113...v1.1.114) (2023-01-01)
 
 
