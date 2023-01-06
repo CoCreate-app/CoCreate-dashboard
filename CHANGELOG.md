@@ -1,3 +1,11 @@
+## [1.1.116](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.115...v1.1.116) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump dependencies, worklow [@v3](https://github.com/v3) ([a87d89b](https://github.com/CoCreate-app/CoCreate-dashboard/commit/a87d89bff1553955e7090c5a2abaeb6c08ec5ccf))
+* edit in github btn styles ([1eccbac](https://github.com/CoCreate-app/CoCreate-dashboard/commit/1eccbaca081de29a2800489c6c66bf3b665fe753))
+
 ## [1.1.115](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.1.114...v1.1.115) (2023-01-05)
 
 
