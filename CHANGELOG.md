@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.2.3...v1.2.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([facf9cb](https://github.com/CoCreate-app/CoCreate-dashboard/commit/facf9cb75d802e2c414fcefa384873526889f539))
+
 ## [1.2.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.2.2...v1.2.3) (2023-03-30)
 
 
