@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.2.5...v1.2.6) (2023-04-11)
+
+
+### Bug Fixes
+
+* bump dependencies ([4a38e98](https://github.com/CoCreate-app/CoCreate-dashboard/commit/4a38e98c8874e011facc5a22af5e2acc309567dc))
+
 ## [1.2.5](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.2.4...v1.2.5) (2023-04-11)
 
 
