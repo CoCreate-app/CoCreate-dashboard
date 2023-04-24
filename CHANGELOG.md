@@ -1,3 +1,11 @@
+## [1.3.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.2...v1.3.3) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([e0af1cd](https://github.com/CoCreate-app/CoCreate-dashboard/commit/e0af1cdd890377ad8328dc06f0946e149332c902))
+* workflow node version updated  16 ([f039e05](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f039e05461194970507d48c367458289146cfa88))
+
 ## [1.3.2](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.1...v1.3.2) (2023-04-24)
 
 
