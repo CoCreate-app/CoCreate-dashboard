@@ -1,3 +1,12 @@
+## [1.3.4](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.3...v1.3.4) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([d802e39](https://github.com/CoCreate-app/CoCreate-dashboard/commit/d802e392e8ca34e13cd48bcdbee04e1eeac51baa))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([f51a1e0](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f51a1e049e52d4ace42611c9b32d974c1094d878))
+* removed toogle fullscreen icons. now using css content ([997248f](https://github.com/CoCreate-app/CoCreate-dashboard/commit/997248f5d595a8b185ad3d788e9f0db7efb31ad7))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.2...v1.3.3) (2023-04-24)
 
 
