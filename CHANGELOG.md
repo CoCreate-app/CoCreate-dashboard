@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.5...v1.3.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([a655b64](https://github.com/CoCreate-app/CoCreate-dashboard/commit/a655b64a7d531ca3f87ca38b32bf5f6c8a59335f))
+
 ## [1.3.5](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.4...v1.3.5) (2023-05-01)
 
 
