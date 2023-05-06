@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.6...v1.3.7) (2023-05-01)
+
+
+### Bug Fixes
+
+* replaced icon toggles with new svg ([e20953a](https://github.com/CoCreate-app/CoCreate-dashboard/commit/e20953a29b2d35ec2757efe14e98fb4baf4459d3))
+
 ## [1.3.6](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.5...v1.3.6) (2023-05-01)
 
 
