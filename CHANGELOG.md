@@ -1,3 +1,11 @@
+## [1.3.8](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.7...v1.3.8) (2023-05-06)
+
+
+### Bug Fixes
+
+* bump [@cocreate](https://github.com/cocreate) dependencies ([f7c12a9](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f7c12a9f7101b0c77846fc240aceb80e8656e656))
+* filter-sort icon ([14fe688](https://github.com/CoCreate-app/CoCreate-dashboard/commit/14fe68815c46e7ce3e0c2517b4c89ba118a5e100))
+
 ## [1.3.7](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.6...v1.3.7) (2023-05-01)
 
 
