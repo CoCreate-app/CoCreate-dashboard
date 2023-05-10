@@ -1,3 +1,10 @@
+## [1.3.9](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.8...v1.3.9) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([86cf20c](https://github.com/CoCreate-app/CoCreate-dashboard/commit/86cf20c0664f36e53bc17911e486b5a762b65024))
+
 ## [1.3.8](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.7...v1.3.8) (2023-05-06)
 
 
