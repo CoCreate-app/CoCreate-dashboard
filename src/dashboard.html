@@ -1,175 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="icon"
+            href="https://cdn.cocreate.app/favicon.ico"
+            type="image/ico"
+            sizes="16x16" />
+        <title>Dashboards | CoCreate</title>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
-    <title>Dashboards | CoCreate</title>
-  
-    <!-- CoCreateCSS -->
-    <link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css" parse="true"/>
+        <!-- CoCreateCSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.cocreate.app/latest/CoCreate.min.css"
+            type="text/css"
+            parse="true" />
 
-       
+        <style>
+            .progressbar {
+                flex-grow: 1;
+                height: 4px;
+                border: none;
+                position: relative;
+                background-color: rgb(194, 240, 253);
+                overflow: hidden;
+            }
 
-    <style>
-      .progressbar {
-        flex-grow: 1;
-        height: 4px;
-        border: none;
-        position: relative;
-        background-color: rgb(194, 240, 253);
-        overflow: hidden;
-      }
-      
-      .progressbar > div {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        bottom: 0;
-        transform-origin: left;
-        transition: transform .4s linear;
-        background-color: #61dafb;
-      }
-      .floating-label{
-        margin-top:0px!important;
-        margin-bottom: 0px!important;
-      }
-      
-      .main-height {
-        height: calc( 100vh - 30px);
-      }
-      
-      .progressbar-text {
-        color: #121212;
-        font-weight: bolder;
-      }
-    </style>
-    <link rel="manifest" href="/manifest.webmanifest">
-  </head>
-  <body>
-    <div id="modal-viewport" hidden></div>
-    <div content_id="content" class="nav display:flex align-items:center background:whitesmoke">
-      <ul class="overflow:auto display:inline-flex direction:rtl font-size:20px align-items:center list-style-type:none width:100%">
-  			<li cLass="margin-right:15px">
-  			  <a actions="closeModal"><i class="display:flex height:18px fill:#505050" src="/assets/svg/times.svg"></i></a>
-  			</li>
-  			<li class="margin-right:15px">
-					<a actions="minMaxModal">
-						<i toggle="/assets/svg/window-restore.svg, /assets/svg/window-maximize.svg" toggle-attribute="src" class="display:flex height:18px fill:#505050" src="/assets/svg/window-maximize.svg"></i>
-					</a>
-				</li>
-  			<li cLass="margin-right:15px">
-  			  <a actions="parkModal"><i class="display:flex height:18px fill:#505050" src="/assets/svg/window-minimize.svg"></i></a>
-  			</li>
-  			<li cLass="margin-right:15px">
-  			  <a fullscreen>
-						<i class="display:flex height:18px fill:#505050" src="/assets/svg/expand.svg"></i>
-						<i class="display:flex height:18px fill:#505050" src="/assets/svg/compress.svg"></i>
-					</a>
+            .progressbar > div {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                bottom: 0;
+                transform-origin: left;
+                transition: transform 0.4s linear;
+                background-color: #61dafb;
+            }
+            .floating-label {
+                margin-top: 0px !important;
+                margin-bottom: 0px !important;
+            }
 
-  			</li>
-  			<li cLass="margin-right:15px">
-  			  <a actions="deleteDocument, closeModal" collection="modules" document_id="" pass_id="form-fields"><i class="height:18px fill:#505050" src="/assets/svg/trash-alt.svg"></i></a>
-  			</li>
-			</ul>
-    </div>
-    
-    <div content_id="content">
-      <!--<div class="domEditor main-height" name='cards1' collection="test" document_id="5f075add24d24a175fca5490" pass_id="me1234" >-->
-      <div class="domEditor main-height" name='cards1' collection="test" pass_id="me1234" >
-        
-          <div dnd-group-name="dashboard" droppable="true" class="dnd"
-            resizable="true"
-            resize-itemselector=""
-            resize-snapWidth="10"
-            resize-snapHeight="10"
-            resize-edges="0 1 1 0">
-          
-          <!--<div class="display:flex">-->
-            <div class="card display:inline-flex padding:20px align-items:center margin:1% width:23% width:47%@xs width:47%@sm width:23%@md" draggable="true" eid="id1">
-              <div class="padding-right:20px">
-                <h2>Visits</h2>
-                <p>Total visits today</p>
-                <div class="display:flex align-items:center">
-                  <h2>$4000</h2>
-                  <i class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>
-                  <span class="cocreate-badge badge-warning round font-size:12px">7%</span>
+            .main-height {
+                height: calc(100vh - 30px);
+            }
+
+            .progressbar-text {
+                color: #121212;
+                font-weight: bolder;
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
+    <body>
+        <div id="modal-viewport" hidden></div>
+        <div
+            content_id="content"
+            class="nav display:flex align-items:center background:whitesmoke">
+            <ul
+                class="overflow:auto display:inline-flex direction:rtl font-size:20px align-items:center list-style-type:none width:100%">
+                <li class="margin-right:15px">
+                    <a actions="closeModal"
+                        ><i
+                            class="display:flex height:18px fill:#505050"
+                            src="/assets/svg/times.svg"></i
+                    ></a>
+                </li>
+                <li class="margin-right:15px">
+                    <a actions="minMaxModal">
+                        <i
+                            toggle="/assets/svg/window-restore.svg, /assets/svg/window-maximize.svg"
+                            toggle-attribute="src"
+                            class="display:flex height:18px fill:#505050"
+                            src="/assets/svg/window-maximize.svg"></i>
+                    </a>
+                </li>
+                <li class="margin-right:15px">
+                    <a actions="parkModal"
+                        ><i
+                            class="display:flex height:18px fill:#505050"
+                            src="/assets/svg/window-minimize.svg"></i
+                    ></a>
+                </li>
+                <li class="margin-right:15px">
+                    <a fullscreen>
+                        <i
+                            class="display:flex height:18px fill:#505050"
+                            src="/assets/svg/expand.svg"></i>
+                        <i
+                            class="display:flex height:18px fill:#505050"
+                            src="/assets/svg/compress.svg"></i>
+                    </a>
+                </li>
+                <li class="margin-right:15px">
+                    <a
+                        actions="deleteDocument, closeModal"
+                        collection="modules"
+                        document_id=""
+                        pass_id="form-fields"
+                        ><i
+                            class="height:18px fill:#505050"
+                            src="/assets/svg/trash-alt.svg"></i
+                    ></a>
+                </li>
+            </ul>
+        </div>
+
+        <div content_id="content">
+            <!--<div class="domEditor main-height" name="cards1" collection="test" document_id="5f075add24d24a175fca5490" pass_id="me1234" >-->
+            <div
+                class="domEditor main-height"
+                name="cards1"
+                collection="test"
+                pass_id="me1234">
+                <div
+                    dnd-group-name="dashboard"
+                    droppable="true"
+                    class="dnd"
+                    resizable="true"
+                    resize-itemselector=""
+                    resize-snapwidth="10"
+                    resize-snapheight="10"
+                    resize-edges="0 1 1 0">
+                    <!--<div class="display:flex">-->
+                    <div
+                        class="card display:inline-flex padding:20px align-items:center margin:1% width:23% width:47%@xs width:47%@sm width:23%@md"
+                        draggable="true"
+                        eid="id1">
+                        <div class="padding-right:20px">
+                            <h2>Visits</h2>
+                            <p>Total visits today</p>
+                            <div class="display:flex align-items:center">
+                                <h2>$4000</h2>
+                                <i
+                                    class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>
+                                <span
+                                    class="cocreate-badge badge-warning round font-size:12px"
+                                    >7%</span
+                                >
+                            </div>
+                            <a href="#">Detail</a>
+                        </div>
+                        <div class="flex-grow:1">
+                            <div
+                                class="progressbar-circle text-align:center width:100%"
+                                progressbar-color="#22CCE2"
+                                percent-value="85"
+                                percent-note="New Visits"></div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card display:inline-flex padding:20px align-items:center margin:1% width:23% width:47%@xs width:47%@sm width:23%@md"
+                        draggable="true"
+                        eid="id2">
+                        <div class="padding-right:20px">
+                            <h2>Orders</h2>
+                            <p>Total visits today</p>
+                            <div class="display:flex align-items:center">
+                                <h2>$1000</h2>
+                                <i
+                                    class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>
+                                <span
+                                    class="cocreate-badge badge-danger round font-size:12px"
+                                    >8%</span
+                                >
+                            </div>
+                            <a href="#">Detail</a>
+                        </div>
+                        <div class="flex-grow:1">
+                            <div
+                                class="progressbar-circle text-align:center width:100%"
+                                progressbar-color="#FDBF5E"
+                                percent-value="75"
+                                percent-note="New Orders"></div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card display:inline-flex padding:20px align-items:center margin:1% width:23% width:47%@xs width:47%@sm width:23%@md"
+                        draggable="true"
+                        eid="id3">
+                        <div class="padding-right:20px">
+                            <h2>Sales</h2>
+                            <p>Total visits today</p>
+                            <div class="display:flex align-items:center">
+                                <h2>$500</h2>
+                                <i
+                                    class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>
+                                <span
+                                    class="cocreate-badge badge-success round font-size:12px"
+                                    >7%</span
+                                >
+                            </div>
+                            <a href="#">Detail</a>
+                        </div>
+                        <div class="flex-grow:1">
+                            <div
+                                class="progressbar-circle text-align:center width:100%"
+                                progressbar-color="#FF3D57"
+                                percent-value="80"
+                                percent-note="New Sales"></div>
+                        </div>
+                    </div>
                 </div>
-                <a href="#">Detail</a>
-              </div>
-              <div class="flex-grow:1">
-                <div class="progressbar-circle text-align:center width:100%" progressbar-color="#22CCE2" percent-value="85" percent-note="New Visits"></div>
-              </div>
-            </div>
-            
-            <div class="card display:inline-flex padding:20px align-items:center margin:1% width:23%  width:47%@xs width:47%@sm width:23%@md" draggable="true" eid="id2">
-              <div class="padding-right:20px">
-                <h2>Orders</h2>
-                <p>Total visits today</p>
-                <div class="display:flex align-items:center">
-                  <h2>$1000</h2>
-                  <i class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>
-                  <span class="cocreate-badge badge-danger round font-size:12px">8%</span>
-                </div>
-                <a href="#">Detail</a>
-              </div>
-              <div class="flex-grow:1">
-                <div class="progressbar-circle text-align:center width:100%" progressbar-color="#FDBF5E" percent-value="75" percent-note="New Orders"></div>
-              </div>
-            </div>
-            
-            <div class="card display:inline-flex padding:20px align-items:center margin:1% width:23%  width:47%@xs width:47%@sm width:23%@md" draggable="true" eid="id3">
-              <div class="padding-right:20px">
-                <h2>Sales</h2>
-                <p>Total visits today</p>
-                <div class="display:flex align-items:center">
-                  <h2>$500</h2>
-                  <i class="fas fa-chart-line color-deep-pink padding:0px_15px"></i>
-                  <span class="cocreate-badge badge-success round font-size:12px">7%</span>
-                </div>
-                <a href="#">Detail</a>
-              </div>
-              <div class="flex-grow:1">
-                <div class="progressbar-circle text-align:center width:100%" progressbar-color="#FF3D57" percent-value="80" percent-note="New Sales"></div>
-              </div>
-            </div>
-          </div>  
-            <!-- sortable card -->
-            <!--<div id="card" class="card margin:5px border-radius-2px flex-grow-1 template " style="width:calc( 20% - 10px )">-->
-            <!--  <div class="margin:15px font-size:18px color-dark-gray">-->
-            <!--    <span class="display:inline-block">-->
-            <!--      <input collection="module_activity" pass_id="form-fields" document_id="" name="clone-name" id="stage-name" class="input_field" placeholder="card">-->
-            <!--    </span>-->
-            <!--    <span class="float:right display:inline-block"><a clone_id="card" class="deleteBtn reset-layout"><i class="height:18px fill:#505050" src="/assets/svg/times.svg"></i></a></span>-->
-            <!--  </div>-->
-            <!--  <div class="border:bottom border-color-extra-medium-gray">-->
-            <!--    <div class="display:flex align-items:center margin:0px_15px">-->
-            <!--      <form collection="module_activity" sortable dnd-group-name="task-items" id="testForm">-->
-                  <!-- sortable task item -->
-            <!--        <div id="task-item" class="display:flex flex-wrap-nowrap align-items:center margin:0px_15px padding:10px_0px template">-->
-            <!--          <h3>Something...</h3>-->
+                <!-- sortable card -->
+                <!--<div id="card" class="card margin:5px border-radius-2px flex-grow-1 template " style="width:calc( 20% - 10px )">-->
+                <!--  <div class="margin:15px font-size:18px color-dark-gray">-->
+                <!--    <span class="display:inline-block">-->
+                <!--      <input collection="module_activity" pass_id="form-fields" document_id="" name="clone-name" id="stage-name" class="input_field" placeholder="card">-->
+                <!--    </span>-->
+                <!--    <span class="float:right display:inline-block"><a clone_id="card" class="deleteBtn reset-layout"><i class="height:18px fill:#505050" src="/assets/svg/times.svg"></i></a></span>-->
+                <!--  </div>-->
+                <!--  <div class="border:bottom border-color-extra-medium-gray">-->
+                <!--    <div class="display:flex align-items:center margin:0px_15px">-->
+                <!--      <form collection="module_activity" sortable dnd-group-name="task-items" id="testForm">-->
+                <!-- sortable task item -->
+                <!--        <div id="task-item" class="display:flex flex-wrap-nowrap align-items:center margin:0px_15px padding:10px_0px template">-->
+                <!--          <h3>Something...</h3>-->
 
-            <!--          <a clone_id="task-item" class="margin-left:15px font-size:20px deleteBtn" ><i class="height:18px fill:#505050" src="/assets/svg/trash-alt.svg"></i></a>-->
-            <!--        </div>-->
-            <!--    </form>-->
-            <!--    </div>-->
-            <!--  </div>-->
-            <!--  <div class="margin:0px_15px margin:15px_0px">-->
-            <!--    <a clone_id="task-item" actions="clone" class="noDrag reset-layout" style="display: block" ><i class="height:16px fill:#505050" src="/assets/svg/plus.svg"></i> Something...</a>  -->
-            <!--  </div>-->
-            <!--</div>-->
-        </div><!-- Sortable card -->
-         	
-       	<button clone_id="card" class="position:fixed bottom:15px right:15px background:dodgerblue grow-hover round cloneBtn" id="addcardBtn"><i class="height:16px fill:#505050" src="/assets/svg/plus.svg"></i></button>
-  
-      </div><!-- saveFetch -->
-    </div> <!-- -->
-    
-    <!-- CoCreateJS -->
-    <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
-    
-  </body>
-</html>  
+                <!--          <a clone_id="task-item" class="margin-left:15px font-size:20px deleteBtn" ><i class="height:18px fill:#505050" src="/assets/svg/trash-alt.svg"></i></a>-->
+                <!--        </div>-->
+                <!--    </form>-->
+                <!--    </div>-->
+                <!--  </div>-->
+                <!--  <div class="margin:0px_15px margin:15px_0px">-->
+                <!--    <a clone_id="task-item" actions="clone" class="noDrag reset-layout" style="display: block" ><i class="height:16px fill:#505050" src="/assets/svg/plus.svg"></i> Something...</a>  -->
+                <!--  </div>-->
+                <!--</div>-->
+            </div>
+            <!-- Sortable card -->
+
+            <button
+                clone_id="card"
+                class="position:fixed bottom:15px right:15px background:dodgerblue grow-hover round cloneBtn"
+                id="addcardBtn">
+                <i
+                    class="height:16px fill:#505050"
+                    src="/assets/svg/plus.svg"></i>
+            </button>
+        </div>
+        <!-- saveFetch -->
+
+        <!-- CoCreateJS -->
+        <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
+    </body>
+</html>
