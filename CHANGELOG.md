@@ -1,3 +1,11 @@
+## [1.3.13](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.12...v1.3.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([cebf637](https://github.com/CoCreate-app/CoCreate-dashboard/commit/cebf6370d8656377b1316b903712f91913a0625a))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([ac82b96](https://github.com/CoCreate-app/CoCreate-dashboard/commit/ac82b964ac7c0edcad264ad826d848d57962407b))
+
 ## [1.3.12](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.11...v1.3.12) (2023-06-04)
 
 
