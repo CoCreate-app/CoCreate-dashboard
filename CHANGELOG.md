@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.13...v1.3.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([a55c1ad](https://github.com/CoCreate-app/CoCreate-dashboard/commit/a55c1ad4b38b7c5cc541747ad4bb95fe759a5854))
+
 ## [1.3.13](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.12...v1.3.13) (2023-06-04)
 
 
