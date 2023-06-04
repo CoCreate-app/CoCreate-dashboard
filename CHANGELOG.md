@@ -1,3 +1,10 @@
+## [1.3.12](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.11...v1.3.12) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([e9a00df](https://github.com/CoCreate-app/CoCreate-dashboard/commit/e9a00df9fc135e11ed400d54871a2bf96e06e3e6))
+
 ## [1.3.11](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.10...v1.3.11) (2023-05-21)
 
 
