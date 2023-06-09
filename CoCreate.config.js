@@ -1,9 +1,7 @@
 module.exports = {
-    "config": {
-        "organization_id": "",
-        "key": "",
-        "host": ""
-    },
+    "organization_id": "",
+    "key": "",
+    "host": "",
     "sources": [
         {
             "collection": "files",
