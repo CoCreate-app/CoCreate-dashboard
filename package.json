@@ -27,7 +27,6 @@
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
     "dev": "npx webpack --config webpack.config.js --watch",
-    "docs": "node ./node_modules/@cocreate/docs/src/index.js",
     "postinstall": "node ./node_modules/@cocreate/cli/check-coc.js"
   },
   "repository": {
@@ -57,8 +56,5 @@
     "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0",
     "webpack-log": "^3.0.1"
-  },
-  "dependencies": {
-    "@cocreate/docs": "^1.8.13"
   }
 }
