@@ -1,3 +1,10 @@
+## [1.3.18](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.17...v1.3.18) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([8fb7e0d](https://github.com/CoCreate-app/CoCreate-dashboard/commit/8fb7e0d51b1de99196c455d6b6b7aa0c6ab39cae))
+
 ## [1.3.17](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.16...v1.3.17) (2023-06-11)
 
 
