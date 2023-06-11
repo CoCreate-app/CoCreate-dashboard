@@ -1,3 +1,11 @@
+## [1.3.22](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.21...v1.3.22) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([a631c20](https://github.com/CoCreate-app/CoCreate-dashboard/commit/a631c2033c039950916b2220d140e4524a55105a))
+* testing workflow ([49b6bd2](https://github.com/CoCreate-app/CoCreate-dashboard/commit/49b6bd2faa5d3bf70882457d6f243bbaa69d1505))
+
 ## [1.3.21](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.20...v1.3.21) (2023-06-11)
 
 
