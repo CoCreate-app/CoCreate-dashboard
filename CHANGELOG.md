@@ -1,3 +1,10 @@
+## [1.3.19](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.18...v1.3.19) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([2a39d29](https://github.com/CoCreate-app/CoCreate-dashboard/commit/2a39d2965202ceac715884b7b4d9ce6f8089e475))
+
 ## [1.3.18](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.17...v1.3.18) (2023-06-11)
 
 
