@@ -1,3 +1,10 @@
+## [1.3.27](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.26...v1.3.27) (2023-06-14)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([7d4c08a](https://github.com/CoCreate-app/CoCreate-dashboard/commit/7d4c08a8368f29f39594093ac27458d6eb658e76))
+
 ## [1.3.26](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.25...v1.3.26) (2023-06-11)
 
 
