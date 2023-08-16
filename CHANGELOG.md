@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.27...v1.4.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([a11a04e](https://github.com/CoCreate-app/CoCreate-dashboard/commit/a11a04e4172b8d6a3c98029ecf2ab556a1e205f3))
+* replace -target -selector ([1acf44e](https://github.com/CoCreate-app/CoCreate-dashboard/commit/1acf44e860113cf3ed48d4cfca4542f038d2ea09))
+* webpack.config and package.json make use of mode=production instead of process.env ([be7d63f](https://github.com/CoCreate-app/CoCreate-dashboard/commit/be7d63fd620057d58a325a3c3cd5e406eccb1913))
+
+
+### Features
+
+* name attribute and variable renamed to key ([1e9bbb5](https://github.com/CoCreate-app/CoCreate-dashboard/commit/1e9bbb5ba7a70e20471d3abd82949cdb90e58893))
+
 ## [1.3.27](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.3.26...v1.3.27) (2023-06-14)
 
 
