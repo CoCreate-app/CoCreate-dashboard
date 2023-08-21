@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/dashboard",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "A simple dashboard component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "dashboard",
