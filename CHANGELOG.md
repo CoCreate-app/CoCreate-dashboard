@@ -1,3 +1,12 @@
+## [1.5.1](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.5.0...v1.5.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([faa086f](https://github.com/CoCreate-app/CoCreate-dashboard/commit/faa086f897ea82f945c88adbfe98247dd2af2c50))
+* replace cdn with /dist ([490ed3f](https://github.com/CoCreate-app/CoCreate-dashboard/commit/490ed3f78f5b3e7dae163e16aa8ddbcb61f25110))
+* update file uploader ([9402135](https://github.com/CoCreate-app/CoCreate-dashboard/commit/940213518ec2372be08be40711df62487264a3f6))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.4.0...v1.5.0) (2023-08-17)
 
 
