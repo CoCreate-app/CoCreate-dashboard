@@ -1,3 +1,11 @@
+## [1.6.2](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.6.1...v1.6.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([992ecb3](https://github.com/CoCreate-app/CoCreate-dashboard/commit/992ecb3d54f52f2b1b488cb990a7631e993c1d1a))
+* Update CoCreate depndencies to latest versions ([0ea0221](https://github.com/CoCreate-app/CoCreate-dashboard/commit/0ea0221d2c5ebb6a236013eb3a45dce5d9d61ead))
+
 ## [1.6.1](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.6.0...v1.6.1) (2023-08-21)
 
 
