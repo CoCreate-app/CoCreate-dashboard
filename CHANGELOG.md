@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.6.2...v1.6.3) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([8318ba2](https://github.com/CoCreate-app/CoCreate-dashboard/commit/8318ba25446110ed3190d5f67d5c79c766406f8c))
+
 ## [1.6.2](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.6.1...v1.6.2) (2023-09-18)
 
 
