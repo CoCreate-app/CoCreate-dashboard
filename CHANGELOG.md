@@ -1,3 +1,11 @@
+## [1.6.4](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.6.3...v1.6.4) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([dbf9272](https://github.com/CoCreate-app/CoCreate-dashboard/commit/dbf92720363dd04dbb7edc1529695c7954eadb73))
+* update host ([4d3a3d3](https://github.com/CoCreate-app/CoCreate-dashboard/commit/4d3a3d307efda47dd0ca4f7e29b57891e4a6f8ca))
+
 ## [1.6.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.6.2...v1.6.3) (2023-11-03)
 
 
