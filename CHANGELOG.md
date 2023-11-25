@@ -1,3 +1,16 @@
+# [1.8.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.7.0...v1.8.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* pass attributes renamed to state ([9024da3](https://github.com/CoCreate-app/CoCreate-dashboard/commit/9024da326e6b7466eadb93ed448014ae2bfb777b))
+* update nav, edit button and css path ([d6a3e35](https://github.com/CoCreate-app/CoCreate-dashboard/commit/d6a3e35326ba7b853b8f1bc66c964d995f5f172e))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([4d5cc46](https://github.com/CoCreate-app/CoCreate-dashboard/commit/4d5cc46bb959c56a80f3748fe66f8b672b1966d1))
+
 # [1.7.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.6.5...v1.7.0) (2023-11-19)
 
 
