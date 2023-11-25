@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.8.0...v1.9.0) (2023-11-25)
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([2f9fae1](https://github.com/CoCreate-app/CoCreate-dashboard/commit/2f9fae1cce19c7af975a7632a9ff91c658ad0d44))
+
 # [1.8.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.7.0...v1.8.0) (2023-11-25)
 
 
