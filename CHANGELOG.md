@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.9.0...v1.9.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([444cb4d](https://github.com/CoCreate-app/CoCreate-dashboard/commit/444cb4db24d236b8a5823ae06a0352396d5c61a5))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.8.0...v1.9.0) (2023-11-25)
 
 
