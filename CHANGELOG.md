@@ -1,3 +1,11 @@
+## [1.9.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.9.2...v1.9.3) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([b8cfeda](https://github.com/CoCreate-app/CoCreate-dashboard/commit/b8cfeda0150db22d77311c4bb1770c579cd04134))
+* svg icon class ([e594e54](https://github.com/CoCreate-app/CoCreate-dashboard/commit/e594e5436717ac9b880175eb6894225fbbf42816))
+
 ## [1.9.2](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.9.1...v1.9.2) (2024-04-29)
 
 
