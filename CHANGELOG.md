@@ -1,3 +1,16 @@
+# [1.10.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.9.3...v1.10.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* pretier.config.js and file formating ([aec1bec](https://github.com/CoCreate-app/CoCreate-dashboard/commit/aec1bec0e9353a80fac1b69e381c216e34d1e835))
+
+
+### Features
+
+* add prettier.config.js and format files ([7b28535](https://github.com/CoCreate-app/CoCreate-dashboard/commit/7b28535ca495091e3015b6372a93d75c75bdf102))
+* add prettier.config.js and format files ([e7ddebd](https://github.com/CoCreate-app/CoCreate-dashboard/commit/e7ddebd0e3f7bb79299878698877c4159d09004d))
+
 ## [1.9.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.9.2...v1.9.3) (2024-06-12)
 
 
