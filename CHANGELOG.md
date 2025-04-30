@@ -1,3 +1,13 @@
+## [1.10.1](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.10.0...v1.10.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([900c469](https://github.com/CoCreate-app/CoCreate-dashboard/commit/900c469b760ef20393e103f8551a4ae49ec146f0))
+* update query attributes ([d138f31](https://github.com/CoCreate-app/CoCreate-dashboard/commit/d138f31509fd35357b8b62064ff652f44d56a0f8))
+* updated cocreate modules versions ([9496ef3](https://github.com/CoCreate-app/CoCreate-dashboard/commit/9496ef347b797269ee7e06753362a0b972576933))
+* webpack.config and devdependencies ([f9c76e5](https://github.com/CoCreate-app/CoCreate-dashboard/commit/f9c76e5f78f52162d4a7996f814295f316542332))
+
 # [1.10.0](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.9.3...v1.10.0) (2024-11-04)
 
 
