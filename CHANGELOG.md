@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.10.2...v1.10.3) (2026-01-18)
+
+
+### Bug Fixes
+
+* update worklow ([b4704e3](https://github.com/CoCreate-app/CoCreate-dashboard/commit/b4704e336552d1760e873e47d22a559e2cdd0e83))
+
 ## [1.10.2](https://github.com/CoCreate-app/CoCreate-dashboard/compare/v1.10.1...v1.10.2) (2025-05-01)
 
 
